@@ -1,0 +1,263 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM32wt7jhtN2mFjw6zS+lGj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fernandogomes1993/fernandogomes1993/blob/main/POO%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 265
+        },
+        "id": "qWp3fdMbB6lx",
+        "outputId": "b6b4f2bf-dbce-4204-c41c-39e366a0f938"
+      },
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "📖 \u001b[31m \u001b[0m\u001b[1;31m10\u001b[0m\u001b[31m coisas que aprendi\u001b[0m ao total sao \u001b[1;36m10\u001b[0m\n"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">📖 <span style=\"color: #800000; text-decoration-color: #800000\"> </span><span style=\"color: #800000; text-decoration-color: #800000; font-weight: bold\">10</span><span style=\"color: #800000; text-decoration-color: #800000\"> coisas que aprendi</span> ao total sao <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">10</span>\n",
+              "</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag1"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag1</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag2"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag2</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag3"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag3</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag4"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag4</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag5"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag5</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "\n",
+              " voçê avancou \u001b[1;36m5\u001b[0m paginas agora esta na pagina \u001b[1;36m5\u001b[0m\n"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">\n",
+              " voçê avancou <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">5</span> paginas agora esta na pagina <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">5</span>\n",
+              "</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag1"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag1</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag2"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag2</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag3"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag3</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag4"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag4</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag5"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag5</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag6"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag6</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pag7"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">pag7</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "\n",
+              " voçê avancou \u001b[1;36m7\u001b[0m paginas agora esta na pagina \u001b[1;36m3\u001b[0m\n"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">\n",
+              " voçê avancou <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">7</span> paginas agora esta na pagina <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">3</span>\n",
+              "</pre>\n"
+            ]
+          },
+          "metadata": {}
+        }
+      ],
+      "source": [
+        "from time import sleep\n",
+        "from rich import print\n",
+        "\n",
+        "\n",
+        "class Livro:\n",
+        "  def __init__(self,titulo,paginas):\n",
+        "    self.titulo = titulo\n",
+        "    self.paginas = paginas\n",
+        "    return print(f''':open_book: [red] {self.titulo}[/] ao total sao {self.paginas}''')\n",
+        "\n",
+        "  def avanca(self,pagina):\n",
+        "    def avancando_pag(self):\n",
+        "      for contador in range(1,pagina +1):\n",
+        "        print(f'pag{contador}',end='')\n",
+        "        sleep(0.3)\n",
+        "\n",
+        "    if pagina <= self.paginas:\n",
+        "      avancando_pag(pagina)\n",
+        "      print(f'\\n voçê avancou {pagina} paginas agora esta na pagina {self.paginas - pagina}')\n",
+        "    else:\n",
+        "      pagina = self.paginas\n",
+        "      avancando_pag(pagina)\n",
+        "      print(f':police_car_light: voçê chegou ao final do livro {self.titulo}')\n",
+        "\n",
+        "\n",
+        "p1 = Livro('10 coisas que aprendi',10)\n",
+        "p1.avanca(5)\n",
+        "p1.avanca(7)\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
